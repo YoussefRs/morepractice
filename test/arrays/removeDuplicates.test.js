@@ -3,7 +3,7 @@ var removeDuplicates = require("../../arrays/removeDuplicates.js");
 
 var expect = chai.expect;
 
-describe.only("Array Exercise - removeDuplicates()", function() {
+describe("Array Exercise - removeDuplicates()", function() {
   it("should remove duplicates at the beginning of the array", function() {
     var arr = [7, 7, 2, 1, 4, 8, 3];
     var noDubsArray = removeDuplicates(arr);

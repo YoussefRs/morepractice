@@ -4,6 +4,17 @@
 // Hint: Use the modulus operator
 
 var evenOdd;
-
+evenOdd = function(t) {
+    var e=[];
+    var x = "even";
+    var y = "odd";
+    for (let i=0;i<t.length;i++) {
+        if (t[i]%2===0) {
+            e.push(x) }
+        else { e.push(y) 
+             }
+    }
+    return e;
+}
 // DO NOT DELETE
 module.exports = evenOdd;

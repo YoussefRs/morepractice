@@ -3,5 +3,9 @@
 
 var chopIt;
 
+chopIt = function(arr,x,y) {
+    return arr.splice(3,1,x,y)
+}
+
 // DO NOT DELETE
 module.exports = chopIt;
